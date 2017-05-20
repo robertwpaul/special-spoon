@@ -147,6 +147,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.0)
   rails (~> 5.0.3)
+  rake
   rspec-rails (~> 3.5)
   shoulda-matchers (~> 3.1)
   spring
