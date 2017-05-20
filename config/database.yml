@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: special-spoon_production
-  username: special-spoon
-  password: <%= ENV['SPECIAL-SPOON_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+#  database: special-spoon_production
+#  username: special-spoon
+#  password: <%= ENV['SPECIAL-SPOON_DATABASE_PASSWORD'] %>
