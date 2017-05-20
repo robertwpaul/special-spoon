@@ -6,5 +6,7 @@ services:
 before_script:
   - cp config/database.travis.yml config/database.yml
 script:
-  - rails db:create db:migrate
-  - rails db:test:prepare
+  - bundle exec rails db:create db:migrate
+  - bundle exec rails db:test:prepare
+cache:
+  - bundler: true
