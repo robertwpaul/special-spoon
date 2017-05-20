@@ -8,5 +8,6 @@ before_script:
 script:
   - bundle exec rails db:create db:migrate
   - bundle exec rails db:test:prepare
+  - bundle exec rake
 cache:
   - bundler: true
