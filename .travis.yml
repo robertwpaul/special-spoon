@@ -1,1 +1,5 @@
 language: ruby
+services:
+  - postgresql
+before_script:
+  - cp config/database.travis.yml config/database.yml
