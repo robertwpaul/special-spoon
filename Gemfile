@@ -31,6 +31,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'foreman', require: false
+  gem 'factory_girl_rails', '4.8.0'
+  gem 'faker'
 end
 
 group :development do
@@ -43,7 +45,5 @@ end
 group :test do
   gem 'rake'
 end
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 ruby '2.4.1'

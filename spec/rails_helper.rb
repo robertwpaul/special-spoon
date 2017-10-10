@@ -60,4 +60,6 @@ RSpec.configure do |config|
 
   config.include RequestSpecHelper, type: :request
 
+  config.include FactoryGirl::Syntax::Methods
+
 end
