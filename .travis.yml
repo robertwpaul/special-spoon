@@ -11,10 +11,3 @@ script:
 - bundle exec rake
 cache:
 - bundler: true
-deploy:
-  provider: heroku
-  app: calm-tundra-93512
-  run:
-  - rake db:migrate
-  api_key:
-    secure: wz1XNdzz1tDdh32p5A6RyQX2JuH/dyw6pNucAz7+9t/3M2SIa8pPw1vNcF+zseLrXZFd623FYiuYOuKda7oGT9Ez13/2AXINnS7pZrvKpXddMxkWLNKejkQpscoL8Xcgj9bqMv62gzfw/me+6cXjJjwahYRtsWJGLxI0Z/4WAVW8oaWQ20GPRM5ZWPx2bpRe11GQ/EoyjnFdWzqvyySLB2iPB8K8mhjqgS4j8+23SKXe5CxPjXWbUIYGNgGfc1L2K9HiSwbEbQsjk1ul/++1OVH9vvGxIDzDCjX5UNQ37P0BMqVrSRFZNwEBY9xCEFPa+C1XDA+MXcoN029y/z0m/O1gdBeQ1KW5P9twh5C4IUPgwY6MpKFilh/57ouEWmmKFRJTaUAaSlfLlb5gDj1+EQrazP2u3z3BAVeJJM7DBjdTeND4tL414PFakpnIsLFrQm09D8QFfcbuGIbGYHbCxVg8ItZQLpWiSkU9LlLQxKDCSzBrSwgCjElqy6GB1Ruwwek9+cW1n8dvkrhxmdSWkm80jwlLQGkmOyTTkaDrmIY+tViNHXh52mcO2nRuehZScoQ2UF6ZPdmyE1gFgIOZKAn3Zhl16j+YMkM1+MEIR6uN1F2Va/mzuaRQOrNC6h9qsMmE9CRo5K/uRbKJaUDukZvj/TpG4EyDqDnDIc35Uuk=
